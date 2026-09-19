@@ -17,8 +17,8 @@
     theme: {
       extend: {
         colors: {
-          marinho: { DEFAULT: '#0A3944', deep: '#06232B', soft: '#14515F' },
-          celeste: { DEFAULT: '#4EA5B3', light: '#9FCDD4', mist: '#EDF5F6' },
+          marinho: { DEFAULT: '#00546A', deep: '#00323F', soft: '#0C7290' },
+          celeste: { DEFAULT: '#9FCED0', light: '#C9E5E6', mist: '#EFF8F8' },
         },
         fontFamily: {
           display: ['"Bricolage Grotesque"', 'system-ui', 'sans-serif'],
@@ -32,17 +32,17 @@
 
 <style>
   html { scroll-behavior: smooth; }
-  body { background: #fff; color: #0A3944; }
-  ::selection { background: #9FCDD4; color: #06232B; }
+  body { background: #fff; color: #00546A; }
+  ::selection { background: #C9E5E6; color: #00323F; }
 
   .h-display { font-family: "Bricolage Grotesque", system-ui, sans-serif; letter-spacing: -0.025em; }
 
   /* Header sobre o hero */
   #siteHeader .nav-cta { background: rgba(255,255,255,.14); color: #fff; backdrop-filter: blur(6px); }
   #siteHeader .nav-cta:hover { background: rgba(255,255,255,.26); }
-  #siteHeader.solid { background: rgba(255,255,255,.92); backdrop-filter: blur(12px); color: #0A3944; border-bottom: 1px solid #EDF5F6; }
-  #siteHeader.solid .nav-cta { background: #0A3944; color: #fff; }
-  #siteHeader.solid .nav-cta:hover { background: #14515F; }
+  #siteHeader.solid { background: rgba(255,255,255,.92); backdrop-filter: blur(12px); color: #00546A; border-bottom: 1px solid #EFF8F8; }
+  #siteHeader.solid .nav-cta { background: #00546A; color: #fff; }
+  #siteHeader.solid .nav-cta:hover { background: #0C7290; }
 
   /* Sinal de scroll */
   .scroll-arrow { animation: nudge 1.6s ease-in-out infinite; }
@@ -58,10 +58,10 @@
 
   /* Cronograma */
   .agenda-bar { transition: transform 300ms ease, box-shadow 300ms ease; }
-  .agenda-item:hover .agenda-bar { transform: translateY(-2px); box-shadow: 0 14px 30px -18px rgba(10,57,68,.45); }
+  .agenda-item:hover .agenda-bar { transform: translateY(-2px); box-shadow: 0 14px 30px -18px rgba(0,84,106,.45); }
 
   a:focus-visible, button:focus-visible, summary:focus-visible {
-    outline: 2px solid #4EA5B3; outline-offset: 3px; border-radius: 4px;
+    outline: 2px solid #9FCED0; outline-offset: 3px; border-radius: 4px;
   }
 
   @media (prefers-reduced-motion: reduce) {
