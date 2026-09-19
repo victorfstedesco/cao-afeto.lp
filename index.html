@@ -51,7 +51,6 @@
   /* Galeria em movimento */
   .marquee { overflow: hidden; -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent); }
   .marquee-track { display: flex; gap: 20px; width: max-content; animation: marquee 42s linear infinite; }
-  .marquee:hover .marquee-track { animation-play-state: paused; }
   .marquee-track.reverse { animation-direction: reverse; animation-duration: 50s; }
   @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
   .g-tile { position: relative; height: 340px; flex: 0 0 auto; border-radius: 20px; overflow: hidden; }
